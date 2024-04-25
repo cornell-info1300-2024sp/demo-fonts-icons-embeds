@@ -1,0 +1,78 @@
+
+A few snippets for the demo:
+
+Fonts -
+
+/* add the @imports at the top */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* set the font-family */
+
+h1, h2, h4 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+Google Icons -
+
+    <!-- outlined -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!-- rounded -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- sharp -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+/* Google Icons */
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.my-icon {
+    font-size: 10em;
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+      <span class="material-symbols-outlined my-icon"> menu </span>
+      <span class="material-symbols-rounded my-icon"> menu </span>
+      <span class="material-symbols-sharp my-icon"> menu </span>
+
+Font Awesome -
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/92e95da2a3.js" crossorigin="anonymous"></script>
+
+      <i class="fa-brands fa-facebook my-icon"></i>
+      <i class="fa-brands fa-twitter my-icon"></i>
+
+.my-icon {
+    font-size: 10em;
+}
+
+Embeds -
+
+- youtube
+- google maps
+- twitter
+- sound cloud
+
+iframe.ratio-16x9 {
+    aspect-ratio:  16 / 9;
+    height: 100%;
+	width: 100%;
+}

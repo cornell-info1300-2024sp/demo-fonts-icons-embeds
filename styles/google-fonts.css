@@ -1,0 +1,26 @@
+/*
+    google-fonts.css 
+
+    How to:
+        go to fonts.google.com
+        select a font
+        @import the font
+        set the font-family
+*/
+
+/* Source: fonts.google.com  */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.bg-color {
+    background-color: #CAD8DE;
+}
+
+h1, h2, h4 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+}
+

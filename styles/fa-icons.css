@@ -1,0 +1,23 @@
+/*
+    fa-icons.css
+    
+    How To:
+        go to fontawesome.com/start sign up and get the kit
+        include the kit JS at the end of each HTML file
+        go to fontawesome.com/icons
+        pick an icon
+        add the icon snippet to the HTML
+        style (size & color & border) the icon like text
+*/
+
+.bg-color {
+    background-color: #CAD8DE;
+}
+
+.my-icon {
+    font-size: 10em;
+    color: red;
+}
+  
+
+  

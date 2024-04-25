@@ -1,0 +1,25 @@
+/*
+    embeds.css
+*/
+
+.bg-color {
+    background-color: #CAD8DE;
+}
+
+/* make the iframe responsive */
+iframe.ratio-16x9 {
+    aspect-ratio:  16 / 9;
+    height: 100%;
+	width: 100%;
+}
+
+iframe.ratio-4x3 {
+    aspect-ratio:  4 / 3;
+    height: 100%;
+	width: 100%;
+}
+
+
+
+
+

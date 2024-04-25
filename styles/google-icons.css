@@ -1,0 +1,32 @@
+/*
+    google-icons.css
+    
+    How To:
+        go to fonts.google.com/icons
+        pick an icon
+        include the CSS
+        add the icon to the CSS
+        add the icon to the HTML
+        style (size & color & border) the icon like text
+*/
+
+.bg-color {
+  background-color: #CAD8DE;
+}
+
+/* Source: fonts.google.com/icons outlined */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.my-icon {
+    font-size: 5em;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+}
+
